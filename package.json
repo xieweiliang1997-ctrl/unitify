@@ -1,0 +1,26 @@
+{
+  "name": "unitify",
+  "version": "1.0.0",
+  "description": "Unitify 是移动端组件库 Vant 的 Uniapp &amp; Taro Vue3 版本，两者基于相同的视觉规范，提供一致的 API 接口，助力开发者快速搭建小程序应用。",
+  "main": "index.js",
+  "dependencies": {
+    "execa": "5.0.0",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "dev":"pnpm dev -r",
+    "dev:demo": "cd packages/demo && pnpm dev",
+    "dev:docs": "cd packages/docs && pnpm dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderYarn/unitify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderYarn/unitify/issues"
+  },
+  "homepage": "https://github.com/coderYarn/unitify#readme"
+}

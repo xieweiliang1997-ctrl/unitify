@@ -1,0 +1,19 @@
+@import "./variables";
+.#{$component-prefix}cell-group {
+    background-color: $cell-background-color;
+    
+    &--bordered{
+      border:$cell-border-color $cell-border-width solid; ;
+    }
+    &--inser{
+      border-radius: 20rpx;
+      overflow: hidden;
+    }
+   &--title {
+     color: $cell-value-color;
+     padding: $cell-padding;
+     padding-bottom: 8rpx;
+     font-size: $cell-font-size;
+     border-bottom: $cell-border-color $cell-border-width solid;
+   }
+}
